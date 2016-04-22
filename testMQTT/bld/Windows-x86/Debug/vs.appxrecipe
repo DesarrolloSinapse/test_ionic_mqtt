@@ -1,0 +1,575 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>SINAPSE-WIN-PC</Machine>
+    <WindowsUser>sinapse-win</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>debug|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>8df44a20-06c5-11e6-b2a7-6df5f6d3df7a</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\build\windows\bld\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>5EEC67A852A98BD1FDDE322C3A4BFEC01FE4FEF09E17ED4AD5E9CBA42EF2C1D6</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>com.ionicframework.testmqtt342463_0.0.1.0_x86__h35559jr9hy9m</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>com.ionicframework.testmqtt342463_h35559jr9hy9m!com.ionicframework.testmqtt342463</RegisteredUserModeAppID>
+    <RegisteredPackageID>com.ionicframework.testmqtt342463</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Apache Cordova Team</RegisteredPackagePublisher>
+    <RegisteredVersion>0.0.1.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\build\windows\debug\x86\win10\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-04-22T06:45:04.058</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\images\SplashScreen.scale-100.png">
+      <PackagePath>images\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-04-20T07:00:24.539</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\images\Square150x150Logo.scale-100.png">
+      <PackagePath>images\Square150x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-04-20T07:00:24.555</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\images\Square30x30Logo.scale-100.png">
+      <PackagePath>images\Square30x30Logo.scale-100.png</PackagePath>
+      <Modified>2016-04-20T07:00:24.555</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\images\Square310x310Logo.scale-100.png">
+      <PackagePath>images\Square310x310Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-04-20T07:00:24.555</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\images\Square44x44Logo.scale-100.png">
+      <PackagePath>images\Square44x44Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-04-20T07:00:24.555</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\images\Square70x70Logo.scale-100.png">
+      <PackagePath>images\Square70x70Logo.scale-100.png</PackagePath>
+      <Modified>2016-04-20T07:00:24.570</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\images\Square71x71Logo.scale-100.png">
+      <PackagePath>images\Square71x71Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-04-20T07:00:24.572</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\images\StoreLogo.scale-100.png">
+      <PackagePath>images\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-04-20T07:00:24.576</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\images\Wide310x150Logo.scale-100.png">
+      <PackagePath>images\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-04-20T07:00:24.576</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\img\ionic.png">
+      <PackagePath>www\img\ionic.png</PackagePath>
+      <Modified>2016-04-22T06:44:57.145</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\cordova-js-src\exec.js">
+      <PackagePath>www\cordova-js-src\exec.js</PackagePath>
+      <Modified>2016-04-22T06:45:01.583</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\cordova-js-src\platform.js">
+      <PackagePath>www\cordova-js-src\platform.js</PackagePath>
+      <Modified>2016-04-22T06:45:01.605</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\cordova.js">
+      <PackagePath>www\cordova.js</PackagePath>
+      <Modified>2016-04-22T06:45:00.281</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\cordova_plugins.js">
+      <PackagePath>www\cordova_plugins.js</PackagePath>
+      <Modified>2016-04-22T06:45:01.605</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\js\app.js">
+      <PackagePath>www\js\app.js</PackagePath>
+      <Modified>2016-04-22T06:45:01.620</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\js\miController.js">
+      <PackagePath>www\js\miController.js</PackagePath>
+      <Modified>2016-04-22T06:44:57.177</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\js\mqttws31.js">
+      <PackagePath>www\js\mqttws31.js</PackagePath>
+      <Modified>2016-04-22T06:45:01.652</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\lib\angular-animate\angular-animate.js">
+      <PackagePath>www\lib\angular-animate\angular-animate.js</PackagePath>
+      <Modified>2016-04-22T06:45:01.841</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\lib\angular-animate\angular-animate.min.js">
+      <PackagePath>www\lib\angular-animate\angular-animate.min.js</PackagePath>
+      <Modified>2016-04-22T06:45:01.872</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\lib\angular-animate\index.js">
+      <PackagePath>www\lib\angular-animate\index.js</PackagePath>
+      <Modified>2016-04-22T06:45:01.872</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\lib\angular-sanitize\angular-sanitize.js">
+      <PackagePath>www\lib\angular-sanitize\angular-sanitize.js</PackagePath>
+      <Modified>2016-04-22T06:45:01.903</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\lib\angular-sanitize\angular-sanitize.min.js">
+      <PackagePath>www\lib\angular-sanitize\angular-sanitize.min.js</PackagePath>
+      <Modified>2016-04-22T06:45:01.925</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\lib\angular-sanitize\index.js">
+      <PackagePath>www\lib\angular-sanitize\index.js</PackagePath>
+      <Modified>2016-04-22T06:45:01.925</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\lib\angular-ui-router\release\angular-ui-router.js">
+      <PackagePath>www\lib\angular-ui-router\release\angular-ui-router.js</PackagePath>
+      <Modified>2016-04-22T06:45:01.956</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\lib\angular-ui-router\release\angular-ui-router.min.js">
+      <PackagePath>www\lib\angular-ui-router\release\angular-ui-router.min.js</PackagePath>
+      <Modified>2016-04-22T06:45:01.988</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\lib\angular-ui-router\src\common.js">
+      <PackagePath>www\lib\angular-ui-router\src\common.js</PackagePath>
+      <Modified>2016-04-22T06:45:02.003</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\lib\angular-ui-router\src\resolve.js">
+      <PackagePath>www\lib\angular-ui-router\src\resolve.js</PackagePath>
+      <Modified>2016-04-22T06:45:02.028</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\lib\angular-ui-router\src\state.js">
+      <PackagePath>www\lib\angular-ui-router\src\state.js</PackagePath>
+      <Modified>2016-04-22T06:45:02.036</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\lib\angular-ui-router\src\stateDirectives.js">
+      <PackagePath>www\lib\angular-ui-router\src\stateDirectives.js</PackagePath>
+      <Modified>2016-04-22T06:45:02.052</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\lib\angular-ui-router\src\stateFilters.js">
+      <PackagePath>www\lib\angular-ui-router\src\stateFilters.js</PackagePath>
+      <Modified>2016-04-22T06:45:02.052</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\lib\angular-ui-router\src\templateFactory.js">
+      <PackagePath>www\lib\angular-ui-router\src\templateFactory.js</PackagePath>
+      <Modified>2016-04-22T06:45:02.068</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\lib\angular-ui-router\src\urlMatcherFactory.js">
+      <PackagePath>www\lib\angular-ui-router\src\urlMatcherFactory.js</PackagePath>
+      <Modified>2016-04-22T06:45:02.083</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\lib\angular-ui-router\src\urlRouter.js">
+      <PackagePath>www\lib\angular-ui-router\src\urlRouter.js</PackagePath>
+      <Modified>2016-04-22T06:45:02.099</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\lib\angular-ui-router\src\view.js">
+      <PackagePath>www\lib\angular-ui-router\src\view.js</PackagePath>
+      <Modified>2016-04-22T06:45:02.120</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\lib\angular-ui-router\src\viewDirective.js">
+      <PackagePath>www\lib\angular-ui-router\src\viewDirective.js</PackagePath>
+      <Modified>2016-04-22T06:45:02.126</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\lib\angular-ui-router\src\viewScroll.js">
+      <PackagePath>www\lib\angular-ui-router\src\viewScroll.js</PackagePath>
+      <Modified>2016-04-22T06:45:02.126</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\lib\angular\angular.js">
+      <PackagePath>www\lib\angular\angular.js</PackagePath>
+      <Modified>2016-04-22T06:45:01.752</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\lib\angular\angular.min.js">
+      <PackagePath>www\lib\angular\angular.min.js</PackagePath>
+      <Modified>2016-04-22T06:45:01.814</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\lib\angular\index.js">
+      <PackagePath>www\lib\angular\index.js</PackagePath>
+      <Modified>2016-04-22T06:45:01.824</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\lib\ionic\js\ionic-angular.js">
+      <PackagePath>www\lib\ionic\js\ionic-angular.js</PackagePath>
+      <Modified>2016-04-22T06:45:02.226</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\lib\ionic\js\ionic-angular.min.js">
+      <PackagePath>www\lib\ionic\js\ionic-angular.min.js</PackagePath>
+      <Modified>2016-04-22T06:45:02.273</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\lib\ionic\js\ionic.bundle.js">
+      <PackagePath>www\lib\ionic\js\ionic.bundle.js</PackagePath>
+      <Modified>2016-04-22T06:45:02.489</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\lib\ionic\js\ionic.bundle.min.js">
+      <PackagePath>www\lib\ionic\js\ionic.bundle.min.js</PackagePath>
+      <Modified>2016-04-22T06:45:02.602</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\lib\ionic\js\ionic.js">
+      <PackagePath>www\lib\ionic\js\ionic.js</PackagePath>
+      <Modified>2016-04-22T06:45:02.673</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\lib\ionic\js\ionic.min.js">
+      <PackagePath>www\lib\ionic\js\ionic.min.js</PackagePath>
+      <Modified>2016-04-22T06:45:02.726</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\plugins\cordova-plugin-console\www\console-via-logger.js">
+      <PackagePath>www\plugins\cordova-plugin-console\www\console-via-logger.js</PackagePath>
+      <Modified>2016-04-22T06:45:02.742</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\plugins\cordova-plugin-console\www\logger.js">
+      <PackagePath>www\plugins\cordova-plugin-console\www\logger.js</PackagePath>
+      <Modified>2016-04-22T06:45:02.742</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\plugins\cordova-plugin-device\src\windows\DeviceProxy.js">
+      <PackagePath>www\plugins\cordova-plugin-device\src\windows\DeviceProxy.js</PackagePath>
+      <Modified>2016-04-22T06:45:02.758</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\plugins\cordova-plugin-device\www\device.js">
+      <PackagePath>www\plugins\cordova-plugin-device\www\device.js</PackagePath>
+      <Modified>2016-04-22T06:45:02.758</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\plugins\cordova-plugin-splashscreen\www\splashscreen.js">
+      <PackagePath>www\plugins\cordova-plugin-splashscreen\www\splashscreen.js</PackagePath>
+      <Modified>2016-04-22T06:45:02.775</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\plugins\cordova-plugin-splashscreen\www\windows\SplashScreenProxy.js">
+      <PackagePath>www\plugins\cordova-plugin-splashscreen\www\windows\SplashScreenProxy.js</PackagePath>
+      <Modified>2016-04-22T06:45:02.777</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\plugins\cordova-plugin-statusbar\src\windows\StatusBarProxy.js">
+      <PackagePath>www\plugins\cordova-plugin-statusbar\src\windows\StatusBarProxy.js</PackagePath>
+      <Modified>2016-04-22T06:45:02.786</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\plugins\cordova-plugin-statusbar\www\statusbar.js">
+      <PackagePath>www\plugins\cordova-plugin-statusbar\www\statusbar.js</PackagePath>
+      <Modified>2016-04-22T06:45:02.801</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\plugins\ionic-plugin-keyboard\src\windows\KeyboardProxy.js">
+      <PackagePath>www\plugins\ionic-plugin-keyboard\src\windows\KeyboardProxy.js</PackagePath>
+      <Modified>2016-04-22T06:45:02.801</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\WinJS\js\base.js">
+      <PackagePath>www\WinJS\js\base.js</PackagePath>
+      <Modified>2016-04-22T06:45:00.667</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\css\style.css">
+      <PackagePath>www\css\style.css</PackagePath>
+      <Modified>2016-04-22T06:45:01.605</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\lib\angular\angular-csp.css">
+      <PackagePath>www\lib\angular\angular-csp.css</PackagePath>
+      <Modified>2016-04-22T06:45:01.652</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\lib\ionic\css\ionic.css">
+      <PackagePath>www\lib\ionic\css\ionic.css</PackagePath>
+      <Modified>2016-04-22T06:45:02.157</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\lib\ionic\css\ionic.min.css">
+      <PackagePath>www\lib\ionic\css\ionic.min.css</PackagePath>
+      <Modified>2016-04-22T06:45:02.173</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\index.html">
+      <PackagePath>www\index.html</PackagePath>
+      <Modified>2016-04-22T06:45:01.151</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\views\suscripciones.html">
+      <PackagePath>www\views\suscripciones.html</PackagePath>
+      <Modified>2016-04-22T06:45:00.151</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\lib\angular-animate\.bower.json">
+      <PackagePath>www\lib\angular-animate\.bower.json</PackagePath>
+      <Modified>2016-04-22T06:44:57.562</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\lib\angular-animate\bower.json">
+      <PackagePath>www\lib\angular-animate\bower.json</PackagePath>
+      <Modified>2016-04-22T06:45:01.872</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\lib\angular-animate\package.json">
+      <PackagePath>www\lib\angular-animate\package.json</PackagePath>
+      <Modified>2016-04-22T06:45:01.888</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\lib\angular-sanitize\.bower.json">
+      <PackagePath>www\lib\angular-sanitize\.bower.json</PackagePath>
+      <Modified>2016-04-22T06:44:57.715</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\lib\angular-sanitize\bower.json">
+      <PackagePath>www\lib\angular-sanitize\bower.json</PackagePath>
+      <Modified>2016-04-22T06:45:01.925</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\lib\angular-sanitize\package.json">
+      <PackagePath>www\lib\angular-sanitize\package.json</PackagePath>
+      <Modified>2016-04-22T06:45:01.925</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\lib\angular-ui-router\.bower.json">
+      <PackagePath>www\lib\angular-ui-router\.bower.json</PackagePath>
+      <Modified>2016-04-22T06:44:57.831</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\lib\angular-ui-router\bower.json">
+      <PackagePath>www\lib\angular-ui-router\bower.json</PackagePath>
+      <Modified>2016-04-22T06:45:01.941</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\lib\angular\.bower.json">
+      <PackagePath>www\lib\angular\.bower.json</PackagePath>
+      <Modified>2016-04-22T06:44:57.252</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\lib\angular\bower.json">
+      <PackagePath>www\lib\angular\bower.json</PackagePath>
+      <Modified>2016-04-22T06:45:01.819</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\lib\angular\package.json">
+      <PackagePath>www\lib\angular\package.json</PackagePath>
+      <Modified>2016-04-22T06:45:01.825</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\lib\ionic\.bower.json">
+      <PackagePath>www\lib\ionic\.bower.json</PackagePath>
+      <Modified>2016-04-22T06:44:58.301</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\lib\ionic\bower.json">
+      <PackagePath>www\lib\ionic\bower.json</PackagePath>
+      <Modified>2016-04-22T06:45:02.141</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\lib\ionic\scss\tsconfig.json">
+      <PackagePath>www\lib\ionic\scss\tsconfig.json</PackagePath>
+      <Modified>2016-04-22T06:45:02.726</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\lib\angular-animate\angular-animate.min.js.map">
+      <PackagePath>www\lib\angular-animate\angular-animate.min.js.map</PackagePath>
+      <Modified>2016-04-22T06:44:57.695</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\lib\angular-sanitize\angular-sanitize.min.js.map">
+      <PackagePath>www\lib\angular-sanitize\angular-sanitize.min.js.map</PackagePath>
+      <Modified>2016-04-22T06:44:57.777</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\lib\angular\angular.min.js.map">
+      <PackagePath>www\lib\angular\angular.min.js.map</PackagePath>
+      <Modified>2016-04-22T06:44:57.530</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\lib\angular-animate\README.md">
+      <PackagePath>www\lib\angular-animate\README.md</PackagePath>
+      <Modified>2016-04-22T06:44:57.715</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\lib\angular-sanitize\README.md">
+      <PackagePath>www\lib\angular-sanitize\README.md</PackagePath>
+      <Modified>2016-04-22T06:44:57.815</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\lib\angular-ui-router\CHANGELOG.md">
+      <PackagePath>www\lib\angular-ui-router\CHANGELOG.md</PackagePath>
+      <Modified>2016-04-22T06:44:57.846</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\lib\angular-ui-router\CONTRIBUTING.md">
+      <PackagePath>www\lib\angular-ui-router\CONTRIBUTING.md</PackagePath>
+      <Modified>2016-04-22T06:44:57.878</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\lib\angular-ui-router\README.md">
+      <PackagePath>www\lib\angular-ui-router\README.md</PackagePath>
+      <Modified>2016-04-22T06:44:57.900</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\lib\angular\README.md">
+      <PackagePath>www\lib\angular\README.md</PackagePath>
+      <Modified>2016-04-22T06:44:57.546</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\lib\ionic\README.md">
+      <PackagePath>www\lib\ionic\README.md</PackagePath>
+      <Modified>2016-04-22T06:44:59.533</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\lib\angular-ui-router\api\angular-ui-router.d.ts">
+      <PackagePath>www\lib\angular-ui-router\api\angular-ui-router.d.ts</PackagePath>
+      <Modified>2016-04-22T06:44:57.831</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\lib\angular-ui-router\LICENSE">
+      <PackagePath>www\lib\angular-ui-router\LICENSE</PackagePath>
+      <Modified>2016-04-22T06:44:57.897</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\lib\angular\angular.min.js.gzip">
+      <PackagePath>www\lib\angular\angular.min.js.gzip</PackagePath>
+      <Modified>2016-04-22T06:44:57.515</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\lib\ionic\fonts\ionicons.eot">
+      <PackagePath>www\lib\ionic\fonts\ionicons.eot</PackagePath>
+      <Modified>2016-04-22T06:44:58.364</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\lib\ionic\fonts\ionicons.svg">
+      <PackagePath>www\lib\ionic\fonts\ionicons.svg</PackagePath>
+      <Modified>2016-04-22T06:44:58.436</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\lib\ionic\fonts\ionicons.ttf">
+      <PackagePath>www\lib\ionic\fonts\ionicons.ttf</PackagePath>
+      <Modified>2016-04-22T06:44:58.436</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\lib\ionic\fonts\ionicons.woff">
+      <PackagePath>www\lib\ionic\fonts\ionicons.woff</PackagePath>
+      <Modified>2016-04-22T06:44:58.468</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\lib\ionic\scss\ionic.scss">
+      <PackagePath>www\lib\ionic\scss\ionic.scss</PackagePath>
+      <Modified>2016-04-22T06:44:59.533</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\lib\ionic\scss\ionicons\ionicons.scss">
+      <PackagePath>www\lib\ionic\scss\ionicons\ionicons.scss</PackagePath>
+      <Modified>2016-04-22T06:44:59.533</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\lib\ionic\scss\ionicons\_ionicons-font.scss">
+      <PackagePath>www\lib\ionic\scss\ionicons\_ionicons-font.scss</PackagePath>
+      <Modified>2016-04-22T06:44:59.549</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\lib\ionic\scss\ionicons\_ionicons-icons.scss">
+      <PackagePath>www\lib\ionic\scss\ionicons\_ionicons-icons.scss</PackagePath>
+      <Modified>2016-04-22T06:44:59.602</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\lib\ionic\scss\ionicons\_ionicons-variables.scss">
+      <PackagePath>www\lib\ionic\scss\ionicons\_ionicons-variables.scss</PackagePath>
+      <Modified>2016-04-22T06:44:59.651</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\lib\ionic\scss\_action-sheet.scss">
+      <PackagePath>www\lib\ionic\scss\_action-sheet.scss</PackagePath>
+      <Modified>2016-04-22T06:44:59.651</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\lib\ionic\scss\_animations.scss">
+      <PackagePath>www\lib\ionic\scss\_animations.scss</PackagePath>
+      <Modified>2016-04-22T06:44:59.682</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\lib\ionic\scss\_backdrop.scss">
+      <PackagePath>www\lib\ionic\scss\_backdrop.scss</PackagePath>
+      <Modified>2016-04-22T06:44:59.682</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\lib\ionic\scss\_badge.scss">
+      <PackagePath>www\lib\ionic\scss\_badge.scss</PackagePath>
+      <Modified>2016-04-22T06:44:59.701</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\lib\ionic\scss\_bar.scss">
+      <PackagePath>www\lib\ionic\scss\_bar.scss</PackagePath>
+      <Modified>2016-04-22T06:44:59.718</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\lib\ionic\scss\_button-bar.scss">
+      <PackagePath>www\lib\ionic\scss\_button-bar.scss</PackagePath>
+      <Modified>2016-04-22T06:44:59.718</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\lib\ionic\scss\_button.scss">
+      <PackagePath>www\lib\ionic\scss\_button.scss</PackagePath>
+      <Modified>2016-04-22T06:44:59.733</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\lib\ionic\scss\_checkbox.scss">
+      <PackagePath>www\lib\ionic\scss\_checkbox.scss</PackagePath>
+      <Modified>2016-04-22T06:44:59.749</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\lib\ionic\scss\_form.scss">
+      <PackagePath>www\lib\ionic\scss\_form.scss</PackagePath>
+      <Modified>2016-04-22T06:44:59.749</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\lib\ionic\scss\_grid.scss">
+      <PackagePath>www\lib\ionic\scss\_grid.scss</PackagePath>
+      <Modified>2016-04-22T06:44:59.780</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\lib\ionic\scss\_items.scss">
+      <PackagePath>www\lib\ionic\scss\_items.scss</PackagePath>
+      <Modified>2016-04-22T06:44:59.802</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\lib\ionic\scss\_list.scss">
+      <PackagePath>www\lib\ionic\scss\_list.scss</PackagePath>
+      <Modified>2016-04-22T06:44:59.834</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\lib\ionic\scss\_loading.scss">
+      <PackagePath>www\lib\ionic\scss\_loading.scss</PackagePath>
+      <Modified>2016-04-22T06:44:59.834</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\lib\ionic\scss\_menu.scss">
+      <PackagePath>www\lib\ionic\scss\_menu.scss</PackagePath>
+      <Modified>2016-04-22T06:44:59.834</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\lib\ionic\scss\_mixins.scss">
+      <PackagePath>www\lib\ionic\scss\_mixins.scss</PackagePath>
+      <Modified>2016-04-22T06:44:59.865</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\lib\ionic\scss\_modal.scss">
+      <PackagePath>www\lib\ionic\scss\_modal.scss</PackagePath>
+      <Modified>2016-04-22T06:44:59.880</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\lib\ionic\scss\_platform.scss">
+      <PackagePath>www\lib\ionic\scss\_platform.scss</PackagePath>
+      <Modified>2016-04-22T06:44:59.903</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\lib\ionic\scss\_popover.scss">
+      <PackagePath>www\lib\ionic\scss\_popover.scss</PackagePath>
+      <Modified>2016-04-22T06:44:59.903</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\lib\ionic\scss\_popup.scss">
+      <PackagePath>www\lib\ionic\scss\_popup.scss</PackagePath>
+      <Modified>2016-04-22T06:44:59.918</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\lib\ionic\scss\_progress.scss">
+      <PackagePath>www\lib\ionic\scss\_progress.scss</PackagePath>
+      <Modified>2016-04-22T06:44:59.934</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\lib\ionic\scss\_radio.scss">
+      <PackagePath>www\lib\ionic\scss\_radio.scss</PackagePath>
+      <Modified>2016-04-22T06:44:59.949</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\lib\ionic\scss\_range.scss">
+      <PackagePath>www\lib\ionic\scss\_range.scss</PackagePath>
+      <Modified>2016-04-22T06:44:59.949</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\lib\ionic\scss\_refresher.scss">
+      <PackagePath>www\lib\ionic\scss\_refresher.scss</PackagePath>
+      <Modified>2016-04-22T06:44:59.965</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\lib\ionic\scss\_reset.scss">
+      <PackagePath>www\lib\ionic\scss\_reset.scss</PackagePath>
+      <Modified>2016-04-22T06:44:59.981</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\lib\ionic\scss\_scaffolding.scss">
+      <PackagePath>www\lib\ionic\scss\_scaffolding.scss</PackagePath>
+      <Modified>2016-04-22T06:45:00.003</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\lib\ionic\scss\_select.scss">
+      <PackagePath>www\lib\ionic\scss\_select.scss</PackagePath>
+      <Modified>2016-04-22T06:45:00.003</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\lib\ionic\scss\_slide-box.scss">
+      <PackagePath>www\lib\ionic\scss\_slide-box.scss</PackagePath>
+      <Modified>2016-04-22T06:45:00.018</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\lib\ionic\scss\_slides.scss">
+      <PackagePath>www\lib\ionic\scss\_slides.scss</PackagePath>
+      <Modified>2016-04-22T06:45:00.034</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\lib\ionic\scss\_spinner.scss">
+      <PackagePath>www\lib\ionic\scss\_spinner.scss</PackagePath>
+      <Modified>2016-04-22T06:45:00.050</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\lib\ionic\scss\_tabs.scss">
+      <PackagePath>www\lib\ionic\scss\_tabs.scss</PackagePath>
+      <Modified>2016-04-22T06:45:00.081</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\lib\ionic\scss\_toggle.scss">
+      <PackagePath>www\lib\ionic\scss\_toggle.scss</PackagePath>
+      <Modified>2016-04-22T06:45:00.101</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\lib\ionic\scss\_transitions.scss">
+      <PackagePath>www\lib\ionic\scss\_transitions.scss</PackagePath>
+      <Modified>2016-04-22T06:45:00.103</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\lib\ionic\scss\_type.scss">
+      <PackagePath>www\lib\ionic\scss\_type.scss</PackagePath>
+      <Modified>2016-04-22T06:45:00.103</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\lib\ionic\scss\_util.scss">
+      <PackagePath>www\lib\ionic\scss\_util.scss</PackagePath>
+      <Modified>2016-04-22T06:45:00.103</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\www\lib\ionic\scss\_variables.scss">
+      <PackagePath>www\lib\ionic\scss\_variables.scss</PackagePath>
+      <Modified>2016-04-22T06:45:00.119</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\config.xml">
+      <PackagePath>config.xml</PackagePath>
+      <Modified>2016-04-22T06:44:56.898</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sinapse-win\Documents\test\testMQTT\platforms\windows\build\windows\debug\x86\win10\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2016-04-22T06:45:03.620</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
